@@ -1,12 +1,11 @@
 import './Exibicao.css'
 
-function Exibicao(titulo, sobre, img){
-    return(
+function Exibicao({ nome, sobre, img }) {
+    return (
         <div className='filmes-sobre'>
-            <img src={img} alt={titulo}/>
-            <h1>{titulo}</h1>
+            <h3>{nome}</h3>
+            <img src={img} alt={nome} />
             <p>{sobre}</p>
-            
         </div>
     )
 }

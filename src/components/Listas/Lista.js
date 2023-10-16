@@ -1,13 +1,14 @@
 import Exibicao from '../Exibicao/Exibicao'
+import './Lista.css'
 
-function Lista({Titulo}, {Exibir}) {
+function Lista({ exibir, titulo }) {
 
     return (
         <>
+            <h1>{titulo}</h1>
             <div className="exibir">
-                <h1>{Titulo}</h1>
-                {Exibir.map((sobreView) =>
-                    <Exibicao Titulo={sobreView.Titulo} img={sobreView.img} sobre={sobreView.sobre} />
+                {exibir.map((catalogo) =>
+                    <Exibicao nome={catalogo.nome} img={catalogo.img} sobre={catalogo.sobre} />
                 )}
             </div>
         </>

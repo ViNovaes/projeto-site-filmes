@@ -1,0 +1,10 @@
+h3{
+    text-align: center;
+    color: aliceblue;
+}
+
+.exibir{
+    color: aliceblue;
+    display: flex;
+    padding: 50px;
+}

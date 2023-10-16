@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    border: 0;
+    background-color: black;
+}
+
+.filmes-sobre {
+    padding: 50px;
+}
+
+.filmes-sobre img {
+    height: 400px;
+    width: 300px;
+}
+
+p{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 70px;
+}
